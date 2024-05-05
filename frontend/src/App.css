@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .background{
+    /* background: url("https://picsum.photos/1370/620/?blur=4"); */
+    background: url("../public/bg.png") no-repeat center center fixed; 
+    backdrop-filter: blur(15px);
+  }
+
+
+.segment-value{
+    display: none !important;
+}
+
+.ant-tabs-tab-btn{
+  color: #000 !important;
+}
+
+.ant-tabs-tab-active{
+  color: #000 !important;
+}
